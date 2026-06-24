@@ -126,17 +126,6 @@ namespace WindowsFormsApp1
                 dataGridView1.CurrentRow.Cells[5].Value = txtbDonGia.Text;
                 dataGridView1.CurrentRow.Cells[6].Value = numericUpDown1.Text;
                 dataGridView1.CurrentRow.Cells[7].Value = tinhTien();
-
-                /*txtbMaHD.Text = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-                txtbTenKH.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-                dateTimePicker1.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
-                txtbTenDT.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
-                string mauSac = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
-                txtbDonGia.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
-                numericUpDown1.Text = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
-
-                if (mauSac == "Đen") rdbDen.Checked = true;
-                if (mauSac == "Màu khác") rdbMauKhac.Checked = true;*/
             }
         }
     }
